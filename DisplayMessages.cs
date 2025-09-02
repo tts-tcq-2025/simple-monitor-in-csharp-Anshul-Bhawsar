@@ -3,7 +3,7 @@ namespace paradigm_shift_csharp
     internal static class DisplayMessages
     {
         private static ILogger logger = new ConsoleLogger();
-        private static readonly List<List<string>> messages = new List<List<string>>
+        private static readonly List<List<string>> messages = new List<List<string>> 
 {
  new List<string> { "OK.", "OK." },
  new List<string> { "WARNING: Parameter is in border range.", "WARNUNG: Parameter liegt im Grenzbereich." },
